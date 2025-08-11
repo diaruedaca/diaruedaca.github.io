@@ -13,9 +13,9 @@ title                    : "Diego Rueda Cadavid"
 title_separator          : "-"
 name                     : &name "Diego Alejandro Rueda Cadavid"
 description              : &description " Environmental Engineer with a Master degree in Sciences- Physics from the National University of Colombia. Currently
- pursuing a Ph.D. in chemical engineering at the Federal University of Santa Catarina (UFSC), Brazil, with a focus on
- the development of catalytic materials. I have experience in the synthesis and characterization of functional materials,
- particularly semiconductors perovskites."
+                                          pursuing a Ph.D. in chemical engineering at the Federal University of Santa Catarina (UFSC), Brazil, with a focus on
+                                          the development of catalytic materials. I have experience in the synthesis and characterization of functional materials,
+                                          particularly semiconductors perovskites."
 url                      : https://diaruedaca.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
