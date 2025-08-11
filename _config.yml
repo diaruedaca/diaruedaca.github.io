@@ -28,18 +28,18 @@ author:
   bio              : "Environmental Engineer, Master's degree in Oceanography and Master's degree in Science - Physics. PhD in Chemical Engineering"
   location         : "Florianópolis, Santa Catarina, Brasil"
   employer         : "Universidade Federal de Santa Catarina"
-  uri              :  "https://procer.ufsc.br/"
-  email            : "none@example.org" 
+  uri              : "https://procer.ufsc.br/"
+  email            : "diaruedaca@unal.edu.co" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=8dxPWxAAAAAJ&hl=es&oi=ao"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/my-orcid?orcid=0000-0001-8185-7986"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
@@ -47,13 +47,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "github.com/diaruedaca"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
