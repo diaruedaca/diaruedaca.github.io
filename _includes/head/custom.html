@@ -54,6 +54,13 @@
   .archive__item-title, .page__meta, .author__urls li {
     text-align: left;
   }
+
+  /* Fix sidebar/content overlap on wide screens: the fixed sidebar's width is a
+     % of the viewport, but the content only reserves ~2/12 of the 1280px grid
+     (~213px). The theme's 250px max-width is too wide, so cap it to clear. */
+  @media screen and (min-width: 1024px) {
+    .sidebar { max-width: 200px; }
+  }
 </style>
 
 <!-- end custom head snippets -->
