@@ -14,4 +14,45 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Computer Modern (LaTeX) web font -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts/font/Serif/cmun-serif.css"/>
+
+<style>
+  /* Computer Modern across the site. Font-awesome/academicons keep their own
+     font because the icon rules target .fa/.ai elements directly. */
+  body,
+  h1, h2, h3, h4, h5, h6,
+  p, ul, ol, li, dt, dd, blockquote, figcaption, label, table,
+  a, .btn, button, input, textarea, select,
+  .author__name, .author__pronouns, .author__bio, .author__urls,
+  .masthead, .greedy-nav, .site-title, .site-subtitle,
+  .page__title, .page__content, .page__meta,
+  .archive__item-title, .archive__item-excerpt, .page__footer {
+    font-family: "Computer Modern Serif", Georgia, "Times New Roman", serif;
+  }
+
+  /* Slightly larger base text (Computer Modern reads a touch small). */
+  html { font-size: 18px; }
+  @media (min-width: 37.5em) { html { font-size: 20px; } }
+  @media (min-width: 56.25em) { html { font-size: 22px; } }
+  @media (min-width: 75em)    { html { font-size: 24px; } }
+
+  /* Justify the body copy for an even, polished text block. */
+  .page__content p,
+  .page__content li,
+  .page__content blockquote,
+  .archive__item-excerpt {
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+
+  /* Keep navigation, titles and meta left-aligned. */
+  .masthead, .greedy-nav, .page__title,
+  .archive__item-title, .page__meta, .author__urls li {
+    text-align: left;
+  }
+</style>
+
 <!-- end custom head snippets -->
