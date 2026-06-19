@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>al-folio preview — Diego Rueda Cadavid</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
+<style>
+  :root{
+    --bg:#ffffff; --text:#1c1c20; --muted:#71767c; --line:#e9ebef;
+    --accent:#0f766e; --accent-soft:#e1f5ee; --card:#ffffff;
+  }
+  body.dark{
+    --bg:#15181c; --text:#e7e9ec; --muted:#9aa0a6; --line:#2a2f36;
+    --accent:#36d1b0; --accent-soft:#15302a; --card:#1b1f24;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;}
+  body{background:var(--bg);color:var(--text);font-family:"Roboto",system-ui,sans-serif;line-height:1.7;font-size:17px;transition:background .25s,color .25s;}
+  a{color:var(--accent);text-decoration:none;}
+  a:hover{color:var(--accent);text-decoration:underline;}
+  .container{max-width:980px;margin:0 auto;padding:0 24px;}
+
+  /* NAV */
+  header{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:30;}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:62px;}
+  .nav .name{font-family:"Roboto Slab",serif;font-weight:500;font-size:20px;color:var(--text);}
+  .nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;align-items:center;}
+  .nav ul a{color:var(--text);font-weight:400;font-size:16px;}
+  .nav ul a:hover{color:var(--accent);text-decoration:none;}
+  .toggle{background:none;border:1px solid var(--line);color:var(--text);width:38px;height:34px;border-radius:8px;cursor:pointer;font-size:15px;}
+
+  /* HERO / ABOUT */
+  .post-title{font-family:"Roboto Slab",serif;font-weight:700;font-size:42px;margin:38px 0 4px;letter-spacing:-.5px;}
+  .desc{font-size:19px;color:var(--muted);margin:0 0 26px;font-weight:300;}
+  .desc a{font-weight:400;}
+  .about{display:grid;grid-template-columns:1fr 250px;gap:36px;align-items:start;}
+  .profile img{width:250px;height:250px;object-fit:cover;border-radius:14px;}
+  .profile .meta{margin-top:12px;font-size:15px;color:var(--muted);line-height:1.6;}
+  .profile .meta div{margin-bottom:3px;}
+  .bio p{text-align:justify;margin:0 0 16px;}
+  .social{margin-top:10px;font-size:21px;display:flex;gap:16px;flex-wrap:wrap;}
+  .social a{color:var(--muted);}
+  .social a:hover{color:var(--accent);}
+
+  h2.section{font-family:"Roboto Slab",serif;font-weight:500;font-size:26px;margin:42px 0 6px;}
+  .rule{height:3px;width:54px;background:var(--accent);border-radius:3px;margin-bottom:16px;}
+
+  /* NEWS */
+  .news{width:100%;border-collapse:collapse;font-size:16px;}
+  .news td{padding:8px 0;border-bottom:1px solid var(--line);vertical-align:top;}
+  .news .date{color:var(--accent);font-weight:500;width:90px;white-space:nowrap;}
+
+  /* PUBLICATIONS */
+  .pubs{margin-top:8px;}
+  .year{font-family:"Roboto Slab",serif;font-size:30px;color:var(--line);font-weight:700;margin:22px 0 6px;}
+  body.dark .year{color:#333a42;}
+  .bib{display:grid;grid-template-columns:96px 1fr;gap:16px;padding:14px 0;border-bottom:1px solid var(--line);}
+  .thumb{height:74px;border-radius:8px;background:var(--accent-soft);display:flex;align-items:center;justify-content:center;color:var(--accent);font-size:24px;}
+  .bib .title{font-weight:500;font-size:18px;margin:0 0 3px;color:var(--text);}
+  .bib .authors{font-size:15px;color:var(--muted);margin:0 0 2px;}
+  .bib .authors .me{color:var(--text);font-weight:700;}
+  .bib .venue{font-size:15px;color:var(--muted);font-style:italic;}
+  .links{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;}
+  .lk{font-size:12.5px;border:1px solid var(--accent);color:var(--accent);padding:2px 9px;border-radius:6px;text-transform:uppercase;letter-spacing:.5px;}
+  .lk:hover{background:var(--accent);color:#fff;text-decoration:none;}
+  .tag{font-size:12px;padding:2px 9px;border-radius:999px;letter-spacing:.4px;text-transform:uppercase;}
+  .t-pub{background:#e1f5ee;color:#0b5048;} .t-sub{background:#fdeccf;color:#854f0b;} .t-prep{background:#eaeef7;color:#1e3a8a;}
+
+  footer{border-top:1px solid var(--line);margin-top:46px;padding:22px 0;color:var(--muted);font-size:14px;text-align:center;}
+  @media(max-width:760px){.about{grid-template-columns:1fr}.profile img{width:200px;height:200px}.nav ul li.hide{display:none}.post-title{font-size:34px}}
+</style>
+</head>
+<body>
+
+<header><div class="container nav">
+  <span class="name">Diego Rueda Cadavid</span>
+  <ul>
+    <li><a href="#">about</a></li>
+    <li class="hide"><a href="#">publications</a></li>
+    <li class="hide"><a href="#">talks</a></li>
+    <li class="hide"><a href="#">teaching</a></li>
+    <li class="hide"><a href="#">cv</a></li>
+    <li><button class="toggle" id="tg" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button></li>
+  </ul>
+</div></header>
+
+<main class="container">
+
+  <h1 class="post-title">Diego Alejandro Rueda Cadavid</h1>
+  <p class="desc">PhD candidate in Chemical Engineering at <a href="#">UFSC</a>, Brazil · Functional materials &amp; catalysis for green hydrogen.</p>
+
+  <div class="about">
+    <div class="bio">
+      <p>Environmental Engineer with an M.Sc. in Physics and an M.Sc. in Environmental Sciences, currently pursuing a Ph.D. in Chemical Engineering at the Federal University of Santa Catarina (UFSC), Brazil, supported by a CAPES scholarship.</p>
+      <p>My research focuses on the synthesis and catalytic design of perovskites and double perovskites for hydrogen production and oxygen transport, with strong hands-on experience in the synthesis and characterization of semiconductor and nanostructured materials. I am especially interested in extending this work toward perovskite-based solar cells.</p>
+      <div class="social">
+        <a href="#" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        <a href="#" title="ORCID"><i class="ai ai-orcid"></i></a>
+        <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" title="CV"><i class="fa-solid fa-file-pdf"></i></a>
+      </div>
+    </div>
+    <div class="profile">
+      <img src="images/profile-photo.png" alt="Diego Rueda Cadavid">
+      <div class="meta">
+        <div><i class="fa-solid fa-location-dot"></i> Florianópolis, Brazil</div>
+        <div><i class="fa-solid fa-building-columns"></i> UFSC — PROCER</div>
+        <div><i class="fa-solid fa-envelope"></i> diaruedaca@unal.edu.co</div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="section">news</h2><div class="rule"></div>
+  <table class="news">
+    <tr><td class="date">Apr 2025</td><td>Presented “Communities and evolution of double perovskites” at CACENQ (UFSC).</td></tr>
+    <tr><td class="date">2025</td><td>Manuscript on Ni-doped perovskites for ethanol photoreforming <b>submitted</b> to Int. J. Hydrogen Energy.</td></tr>
+    <tr><td class="date">2024</td><td>Paper published in <i>Journal of Molecular Structure</i> (vol. 1314).</td></tr>
+  </table>
+
+  <h2 class="section">selected publications</h2><div class="rule"></div>
+  <div class="pubs">
+
+    <div class="year">2025</div>
+    <div class="bib">
+      <div class="thumb"><i class="fa-solid fa-atom"></i></div>
+      <div>
+        <p class="title">Ni-induced lattice distortion and oxygen vacancy engineering in La₀.₅Ca₀.₅Mn₁₋ₓFe₀.₅NiₓO₃ for visible-light ethanol photoreforming hydrogen production <span class="tag t-sub">Submitted</span></p>
+        <p class="authors"><span class="me">D. Rueda</span>, D. Hotza, S. Y. Gómez González</p>
+        <p class="venue">International Journal of Hydrogen Energy</p>
+        <div class="links"><a class="lk" href="#">abs</a><a class="lk" href="#">PDF</a></div>
+      </div>
+    </div>
+    <div class="bib">
+      <div class="thumb"><i class="fa-solid fa-chart-line"></i></div>
+      <div>
+        <p class="title">Research trends and technological insights on double perovskites for hydrogen: a bibliometric and text-mining analysis <span class="tag t-prep">In prep</span></p>
+        <p class="authors"><span class="me">D. Rueda</span>, D. Hotza, S. Y. Gómez González</p>
+        <p class="venue">In preparation</p>
+      </div>
+    </div>
+
+    <div class="year">2024</div>
+    <div class="bib">
+      <div class="thumb"><i class="fa-solid fa-cubes"></i></div>
+      <div>
+        <p class="title">Evidence of multifunctional properties of ferromanganite La₀.₅Ca₀.₅Mn₀.₅Fe₀.₅O₃ <span class="tag t-pub">Published</span></p>
+        <p class="authors"><span class="me">D. Rueda</span>, et al.</p>
+        <p class="venue">Journal of Molecular Structure, 1314, 138821</p>
+        <div class="links"><a class="lk" href="#">abs</a><a class="lk" href="#">DOI</a></div>
+      </div>
+    </div>
+
+    <div class="year">2023</div>
+    <div class="bib">
+      <div class="thumb"><i class="fa-solid fa-water"></i></div>
+      <div>
+        <p class="title">Spatial and temporal variation of methane emissions in the coastal Balearic Sea, Western Mediterranean <span class="tag t-pub">Published</span></p>
+        <p class="authors"><span class="me">D. Rueda</span>, et al.</p>
+        <p class="venue">Science of The Total Environment, 865, 161249</p>
+        <div class="links"><a class="lk" href="#">abs</a><a class="lk" href="#">DOI</a></div>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>© 2026 Diego A. Rueda Cadavid · Built with the al-folio style · Florianópolis, Brazil</footer>
+
+<script>
+  var b=document.body, t=document.getElementById('tg');
+  t.addEventListener('click',function(){
+    b.classList.toggle('dark');
+    t.innerHTML = b.classList.contains('dark') ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+  });
+</script>
+</body>
+</html>
