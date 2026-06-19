@@ -14,12 +14,14 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
-<!-- Computer Modern (LaTeX) web font -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts/font/Serif/cmun-serif.css"/>
+<!-- Tinos: metric-compatible with Times New Roman, for consistent rendering everywhere -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap">
 
 <style>
-  /* Computer Modern across the site. Font-awesome/academicons keep their own
-     font because the icon rules target .fa/.ai elements directly. */
+  /* Times New Roman across the site (icons keep their own font because the
+     Font Awesome / Academicons rules target .fa/.ai elements directly). */
   body,
   h1, h2, h3, h4, h5, h6,
   p, ul, ol, li, dt, dd, blockquote, figcaption, label, table,
@@ -28,14 +30,13 @@
   .masthead, .greedy-nav, .site-title, .site-subtitle,
   .page__title, .page__content, .page__meta,
   .archive__item-title, .archive__item-excerpt, .page__footer {
-    font-family: "Computer Modern Serif", Georgia, "Times New Roman", serif;
+    font-family: "Times New Roman", Tinos, Times, Georgia, serif;
   }
 
-  /* Slightly larger base text (Computer Modern reads a touch small). */
-  html { font-size: 18px; }
-  @media (min-width: 37.5em) { html { font-size: 20px; } }
-  @media (min-width: 56.25em) { html { font-size: 22px; } }
-  @media (min-width: 75em)    { html { font-size: 24px; } }
+  /* Comfortable reading size for the main column only (keeps the grid intact,
+     so the sidebar no longer overlaps the content). */
+  .page__content { font-size: 1.08rem; line-height: 1.7; }
+  .archive .archive__item-excerpt { font-size: 1rem; line-height: 1.6; }
 
   /* Justify the body copy for an even, polished text block. */
   .page__content p,
