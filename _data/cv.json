@@ -1,152 +1,272 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Diego Alejandro Rueda Cadavid",
+    "email": "diaruedaca@unal.edu.co",
+    "phone": "+57 316 277 2887",
+    "website": "https://diaruedaca.github.io",
+    "summary": "Environmental Engineer, M.Sc. Physics and M.Sc. Environmental Sciences. PhD candidate in Chemical Engineering at UFSC (Brazil), working on functional materials and catalysis for hydrogen production and oxygen transport.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Florianópolis",
+      "countryCode": "BR",
+      "region": "Santa Catarina"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=8dxPWxAAAAAJ&hl=es"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "username": "0000-0001-8185-7986",
+        "url": "https://orcid.org/0000-0001-8185-7986"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "diaruedaca",
+        "url": "https://github.com/diaruedaca"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Fundación Universitaria Agraria de Colombia",
+      "position": "Assistant Professor",
+      "startDate": "2024-02",
+      "endDate": "2024-09",
+      "summary": "Professor of various courses in the Environmental Engineering undergraduate program.",
+      "highlights": []
+    },
+    {
+      "company": "National University of Colombia (Department of Physics)",
+      "position": "Auxiliary Professor",
+      "startDate": "2023-08",
+      "endDate": "2024-09",
+      "summary": "Auxiliary professor of various undergraduate physics courses.",
+      "highlights": []
+    },
+    {
+      "company": "AUDAMA",
+      "position": "Project Consultant",
+      "startDate": "2021-11",
+      "endDate": "2022-05",
+      "summary": "Design and definition of technical criteria and terms of reference for the selection of hardware, software and photovoltaic power systems.",
+      "highlights": []
+    },
+    {
+      "company": "CSIC-IMEDEA",
+      "position": "Researcher / Laboratory Technician",
+      "startDate": "2020-10",
+      "endDate": "2022-01",
+      "summary": "Research internship as laboratory technician, methane / greenhouse-gas research.",
+      "highlights": []
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Federal University of Santa Catarina (UFSC), Brazil",
+      "area": "Chemical Engineering — new catalytic materials for hydrogen production and oxygen transport",
+      "studyType": "Ph.D. (in progress)",
+      "startDate": "2024-09",
+      "endDate": "2028-08",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "National University of Colombia, Bogotá",
+      "area": "Physics of materials, solid state and modeling of materials for environmental applications",
+      "studyType": "M.Sc. in Sciences — Physics",
+      "startDate": "2022-08",
+      "endDate": "2024-12",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "University of Cádiz, Spain",
+      "area": "Modeling and estimation of greenhouse gases and their radiative effects on the atmosphere",
+      "studyType": "M.Sc. in Environmental Sciences",
+      "startDate": "2019-09",
+      "endDate": "2021-07",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "National University of Colombia, Palmira",
+      "area": "Synthesis and characterization of TiO2 for catalytic applications and photocatalysis",
+      "studyType": "Environmental Engineering",
+      "startDate": "2013-08",
+      "endDate": "2019-05",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "Materials synthesis",
+      "level": "",
+      "keywords": ["Perovskites", "Double perovskites", "Sol-gel", "Green synthesis", "Nanostructured oxides"]
+    },
+    {
+      "name": "Characterization",
+      "level": "",
+      "keywords": ["XRD / total scattering", "Electrical properties", "Magnetic properties"]
+    },
+    {
+      "name": "Catalysis & energy",
+      "level": "",
+      "keywords": ["Photocatalysis", "Photoreforming", "Hydrogen production", "Oxygen transport"]
+    },
+    {
+      "name": "Data & computing",
+      "level": "",
+      "keywords": ["Python", "Machine learning", "Bibliometrics & text-mining", "GHG modeling"]
+    }
+  ],
+  "languages": [
+    { "language": "Spanish", "fluency": "Native" },
+    { "language": "English", "fluency": "Professional" },
+    { "language": "Portuguese", "fluency": "Professional" }
+  ],
+  "interests": [
+    { "name": "Perovskite materials", "keywords": [] },
+    { "name": "Green hydrogen", "keywords": [] },
+    { "name": "Perovskite solar cells", "keywords": [] }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Ni-induced lattice distortion and oxygen vacancy engineering in La0.5Ca0.5Mn1-xFe0.5NixO3 for visible-light ethanol photoreforming hydrogen production",
+      "publisher": "Submitted to the International Journal of Hydrogen Energy",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Ni substitution drives lattice distortion and oxygen-vacancy formation, enhancing visible-light photoreforming of ethanol for hydrogen production. (Submitted)"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Research Trends and Technological Insights on Double Perovskites for Hydrogen Production and Storage: A Bibliometric and Text-Mining Analysis",
+      "publisher": "In preparation",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Bibliometric and text-mining analysis of the research landscape and technological trends of double perovskites for hydrogen production and storage. (In preparation)"
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Effect of Ni/Mn cationic disorder on the structural and magnetic properties of La2NiMnO6, La2NiFeO6 and La2NiMnCoO6 double perovskites synthesized by sol-gel for hydrogen photoreforming",
+      "publisher": "In preparation",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Effect of Ni/Mn cationic disorder on the structural and magnetic properties of sol-gel double perovskites for hydrogen photoreforming. (In preparation)"
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Evidence of multifunctional properties of ferromanganite La0.5Ca0.5Mn0.5Fe0.5O3",
+      "publisher": "Journal of Molecular Structure, 1314, 138821",
+      "releaseDate": "2024",
+      "website": "",
+      "summary": "Crystallographic, electrical and magnetic study revealing the multifunctional behaviour of the ferromanganite La0.5Ca0.5Mn0.5Fe0.5O3."
+    },
+    {
+      "name": "Low-cost tangerine peel waste mediated production of Titanium Dioxide Nanocrystals: Synthesis and characterization",
+      "publisher": "Environmental Nanotechnology, Monitoring and Management, 13, 100285",
+      "releaseDate": "2020",
+      "website": "",
+      "summary": "Green, low-cost route to TiO2 nanocrystals using tangerine (Citrus reticulata) peel waste as a mediating agent."
+    },
+    {
+      "name": "Spatial and temporal variation of methane emissions in the coastal Balearic Sea, Western Mediterranean",
+      "publisher": "Science of The Total Environment, 865, 161249",
+      "releaseDate": "2023",
+      "website": "",
+      "summary": "Quantification of spatial and temporal variability of dissolved methane and sea-air methane fluxes in the coastal Balearic Sea."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Communities and evolution of double perovskite in hydrogen production and storage: A Bibliometric Analysis",
+      "event": "CACENQ – Congresso Acadêmico da Pós-Graduação em Engenharia Química, UFSC",
+      "date": "2025-04-11",
+      "location": "Florianópolis, Brazil",
+      "description": "Diego Rueda, Dachamir Hotza, Sergio Yesid Gómez González."
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "Structural, compositional, morphologic and magnetic features of the RCa2SbFe2O9 triple perovskite",
+      "event": "7th International Meeting for Researchers in Materials and Plasma Technology (IMRMPT)",
+      "date": "2023",
+      "location": "Colombia",
+      "description": "Oral presentation."
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
+      "name": "Spatial and temporal variation of methane emissions in the coastal area of Majorca and Cabrera",
+      "event": "Scientific conference",
+      "date": "2021",
+      "location": "Palma de Mallorca, Spain",
+      "description": "Oral presentation."
     },
     {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Utilization of mandarin peel residues for the production and characterization of titanium dioxide (TiO2) nanostructures with potential self-cleaning applications",
+      "event": "National Congress of Physics Engineering | 1st International Conference on Applied Physics, Engineering Innovation (APEI)",
+      "date": "2018",
+      "location": "Colombia",
+      "description": "Oral presentation."
+    },
+    {
+      "name": "Characterization of TiO2 from mandarin peel residues for industrial production",
+      "event": "To.Sca.Lat 1.0 – Total Scattering Analysis for NanoScience in Latin America",
+      "date": "2018",
+      "location": "Latin America",
+      "description": "Symposium – oral presentation."
+    },
+    {
+      "name": "Some applications in Environmental and Agroindustrial Engineering",
+      "event": "VI National Congress of Physics Engineering | 1st International Conference on Applied Physics, Engineering Innovation (APEI)",
+      "date": "2018",
+      "location": "Colombia",
+      "description": "Oral presentation."
+    },
+    {
+      "name": "Green synthesis of TiO2 nanoparticles using mandarin (Citrus reticulata) peels",
+      "event": "1st Green Chemistry Symposium",
+      "date": "2016",
+      "location": "Colombia",
+      "description": "Poster."
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Environmental Engineering courses",
+      "institution": "Fundación Universitaria Agraria de Colombia",
+      "date": "2024",
+      "role": "Assistant Professor",
+      "description": "Various courses of the Environmental Engineering undergraduate program."
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Undergraduate physics courses",
+      "institution": "National University of Colombia, Department of Physics",
+      "date": "2023-2024",
+      "role": "Auxiliary Professor",
+      "description": "Various undergraduate physics courses."
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "Biocompatible Nanomaterials for Magnetic Hyperthermia Therapy",
+      "category": "research project",
+      "date": "2020-2024",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Production of biocompatible nanomaterials applied to magnetic hyperthermia therapy."
+    },
+    {
+      "name": "Nanostructures from Agro-industrial Products and Residues",
+      "category": "research project",
+      "date": "2018-2019",
+      "url": "",
+      "description": "Synthesis and characterization of nanostructures from agro-industrial products and residues."
+    },
+    {
+      "name": "Selected Nanostructures for Environmental and Agro-industrial Applications",
+      "category": "research project",
+      "date": "2017",
+      "url": "",
+      "description": "Synthesis of selected nanostructures for environmental and agro-industrial applications."
     }
   ]
 }
