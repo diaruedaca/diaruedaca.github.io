@@ -1,7 +1,7 @@
 ---
 title: "Effect of Ni/Mn cationic disorder on the structural and magnetic properties of La2NiMnO6, La2NiFeO6 and La2NiMnCoO6 double perovskites synthesized by sol-gel for hydrogen photoreforming"
 collection: publications
-category: manuscripts
+category: submitted
 permalink: /publication/2025-04-01-nimn-cationic-disorder-double-perovskites
 excerpt: 'Sol-gel synthesis of La2NiMnO6, La2NiFeO6 and La2NiMnCoO6 double perovskites and the effect of Ni/Mn cationic disorder on their structural and magnetic properties for hydrogen photoreforming. (In preparation)'
 date: 2025-04-01

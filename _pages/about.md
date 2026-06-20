@@ -28,6 +28,7 @@ Education
 
 Highlights
 ======
+* 8 works indexed on Google Scholar — **70+ citations, h-index 3**
 * Meritorious Master's Thesis on the double perovskite LaCaMnFeO₆
 * CAPES Scholarship for doctoral studies in Brazil
 * JAE-INTRO and AUIP international research scholarships

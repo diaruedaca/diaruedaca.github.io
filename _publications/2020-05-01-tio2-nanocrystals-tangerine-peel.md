@@ -3,7 +3,7 @@ title: "Low-cost tangerine peel waste mediated production of Titanium Dioxide Na
 collection: publications
 category: manuscripts
 permalink: /publication/2020-05-01-tio2-nanocrystals-tangerine-peel
-excerpt: 'Green, low-cost route to TiO₂ nanocrystals using tangerine (Citrus reticulata) peel waste as a mediating agent, with structural and morphological characterization.'
+excerpt: 'Green, low-cost route to TiO₂ nanocrystals using tangerine (Citrus reticulata) peel waste as a mediating agent, with structural and morphological characterization. **Cited by 53** (Google Scholar).'
 date: 2020-05-01
 venue: 'Environmental Nanotechnology, Monitoring and Management, 13, 100285'
 paperurl: 'https://doi.org/10.1016/j.enmm.2020.100285'
