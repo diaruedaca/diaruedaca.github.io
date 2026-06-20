@@ -10,4 +10,6 @@ paperurl: 'https://ssrn.com/abstract=4739876'
 citation: 'Rueda, D., Ibáñez-Sotelo, J., Parra-Mesa, L., Hernández-Valero, A., et al. (2024). &quot;Multifunctional features of perovskite-type ferro-manganite La0.5Ca0.5Mn0.5Fe0.5O3.&quot; <i>SSRN preprint 4739876</i>.'
 ---
 
-Preprint (SSRN 4739876) on the multifunctional features of the perovskite-type ferro-manganite La₀.₅Ca₀.₅Mn₀.₅Fe₀.₅O₃.
+## Summary
+
+Preprint version (SSRN 4739876) reporting the multifunctional behaviour of the perovskite-type ferro-manganite La₀.₅Ca₀.₅Mn₀.₅Fe₀.₅O₃, bringing together its structural, electrical and magnetic features in a single material. It corresponds to the study later published in the *Journal of Molecular Structure*.

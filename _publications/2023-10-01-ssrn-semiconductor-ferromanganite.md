@@ -10,4 +10,6 @@ paperurl: 'https://ssrn.com/abstract=4621421'
 citation: 'Rueda, D., Ibáñez-Sotelo, J., Parra-Mesa, L., Hernández-Valero, A., et al. (2023). &quot;Experimental features and semiconductor electronic behavior of the La0.5Ca0.5Mn0.5Fe0.5O3 multifunctional ferro-manganite.&quot; <i>SSRN preprint 4621421</i>.'
 ---
 
-Preprint (SSRN 4621421) on the experimental features and semiconductor electronic behavior of the La₀.₅Ca₀.₅Mn₀.₅Fe₀.₅O₃ multifunctional ferro-manganite.
+## Summary
+
+Preprint version (SSRN 4621421) focusing on the experimental features and the semiconductor electronic behaviour of the multifunctional ferro-manganite La₀.₅Ca₀.₅Mn₀.₅Fe₀.₅O₃, including its crystalline structure and electronic/optical response. It belongs to the same line of work on this multifunctional double perovskite.

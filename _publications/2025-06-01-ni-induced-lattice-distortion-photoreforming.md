@@ -9,6 +9,8 @@ venue: 'Submitted to the International Journal of Hydrogen Energy'
 citation: 'Rueda, D., Hotza, D., &amp; Gómez González, S. Y. (2025). &quot;Ni-induced lattice distortion and oxygen vacancy engineering in La0.5Ca0.5Mn1-xFe0.5NixO3 for visible-light ethanol photoreforming hydrogen production.&quot; <i>Submitted to the International Journal of Hydrogen Energy</i>.'
 ---
 
-Study of how nickel substitution induces lattice distortion and oxygen-vacancy engineering in La₀.₅Ca₀.₅Mn₁₋ₓFe₀.₅NiₓO₃ perovskites, enhancing visible-light photoreforming of ethanol for hydrogen production.
+## Summary
+
+This study examines how nickel substitution induces lattice distortion and oxygen-vacancy engineering in La₀.₅Ca₀.₅Mn₁₋ₓFe₀.₅NiₓO₃ perovskites, and how these structural changes enhance the visible-light photoreforming of ethanol for hydrogen production. It connects the synthesis and characterization of the materials with their photocatalytic hydrogen-evolution performance.
 
 *Status: submitted to the International Journal of Hydrogen Energy.*

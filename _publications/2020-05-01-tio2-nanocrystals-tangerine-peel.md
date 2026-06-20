@@ -10,4 +10,6 @@ paperurl: 'https://doi.org/10.1016/j.enmm.2020.100285'
 citation: 'Rueda, D., Arias, V., Zhang, Y., Cabot, A., Agudelo, A. C., &amp; Cadavid, D. (2020). &quot;Low-cost tangerine peel waste mediated production of Titanium Dioxide Nanocrystals: Synthesis and characterization.&quot; <i>Environmental Nanotechnology, Monitoring and Management</i>, 13, 100285.'
 ---
 
-Green and low-cost synthesis route to titanium dioxide (TiO₂) nanocrystals using tangerine (*Citrus reticulata*) peel agro-industrial waste as a mediating agent, including the structural, optical and morphological characterization of the resulting nanomaterials for photocatalytic applications.
+## Summary
+
+This study presents a fast, low-cost and environmentally friendly route to produce titanium dioxide (TiO₂) nanocrystals using tangerine (*Citrus reticulata*) peel agro-industrial waste as a bio-mediator of the reaction, instead of conventional chemical agents. Two volumetric ratios of peel extract were used to transform a titanium precursor into crystalline TiO₂, and the resulting nanomaterials were characterized for their crystalline structure, morphology and optical properties. By valorising a residue that would otherwise end up in landfills, the method lowers both cost and environmental impact while yielding TiO₂ nanocrystals suitable for photocatalytic applications.
